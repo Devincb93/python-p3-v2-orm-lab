@@ -43,7 +43,6 @@ class Department:
 
     @classmethod
     def create_table(cls):
-        """ Create a new table to persist the attributes of Department instances """
         sql = """
             CREATE TABLE IF NOT EXISTS departments (
             id INTEGER PRIMARY KEY,
